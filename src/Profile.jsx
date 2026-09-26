@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import Popeye from "./Popeye";
 import Spinach from "./Spinach";
+import Olivia from "./Olivia";
 import DefaultProfile from "./DefaultProfile";
 
 const Profile = () => {
@@ -16,6 +17,8 @@ const Profile = () => {
         <Popeye.jsx />
       ) : name === "spinach" ? (
         <Spinach.jsx />
+      ) : name === "olivia" ? (
+        <Olivia.jsx />
       ) : (
         <DefaultProfile />
       )}
