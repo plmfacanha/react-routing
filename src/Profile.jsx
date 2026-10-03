@@ -14,11 +14,11 @@ const Profile = () => {
       <hr />
       <h2>The profile visited is here:</h2>
       {name === "popeye" ? (
-        <Popeye.jsx />
+        <Popeye />
       ) : name === "spinach" ? (
-        <Spinach.jsx />
+        <Spinach />
       ) : name === "olivia" ? (
-        <Olivia.jsx />
+        <Olivia />
       ) : (
         <DefaultProfile />
       )}
