@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import StyledButton from "./StyledButton";
 
 const App = () => {
   return (
@@ -11,6 +12,10 @@ const App = () => {
             <Link to="profile">Profile page</Link>
           </li>
         </ul>
+        <StyledButton href="...">Default Call-to-action</StyledButton>
+        <StyledButton primary href="...">
+          Primary Call-to-action
+        </StyledButton>
       </nav>
     </div>
   );
